@@ -36,9 +36,7 @@ int main()
         zero();
         int i = -1;
         gets(input);
-
         spliter(input);
-        
         diagnose();
     } while (strcmp(command[0], "exit"));
 
